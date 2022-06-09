@@ -25,7 +25,7 @@ app.get('/', (request, response) => {
     hereIsTheUpsideDown,
   );
 
-  response.status(200).json(characters);
+  return response.status(200).json(characters);
 });
 
 app.listen(PORT, () => {

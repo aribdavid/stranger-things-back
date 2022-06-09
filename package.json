@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18.3.0",
+    "npm": "8.5.5"
+  },
+  
   "scripts": {
     "start": "node index.js",
     "test": "jest --runInBand  --detectOpenHandles --forceExit",
